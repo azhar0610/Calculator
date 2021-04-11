@@ -1,6 +1,21 @@
-<div>
-  <button>add</button>
-  <button>sub</button>
+<H1> Hi its a Dummy Calculator Project for Assignment 4 for OOS Project.</H1>
+
+<H3>Following are the scope of this Project :</H3>
+<ul>
+<li>Basic operations Like Addition ,Substraction, Multiplication and Division can only be performed</li>
+<li>As we are in early Stage only two variables are allowed</li>
+</ul>
+
+<H2>Please Press the dedicated buttons for your solution</H2>
+
+<button type="button" (click) = "getOperation('+')" class="operator" value="+">For Addition</button> <br> <br>
+<button type="button" (click) = "getOperation('-')" class="operator" value="-">For Substraction</button> <br> <br>
+<button type="button" (click) = "getOperation('*')" class="operator" value="*">For Multiplication</button> <br> <br>
+<button type="button" (click) = "getOperation('/')" class="operator" value="/">For Division</button> <br> <br>
+<br> <br>
+<div *ngIf="operation == '+'">
+  <app-addition></app-addition>
 </div>
-<div> <app-addition></app-addition></div>
-<div><app-subraction></app-subraction></div>
+<div  *ngIf="operation == '-'">
+  <app-subraction></app-subraction>
+</div>

@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'calculator';
+  operation !: string;
+
+  getOperation(operand : string){
+    this.operation = operand;
+  }
 }
