@@ -17,11 +17,7 @@ export class AdditionComponent implements OnInit {
   }
 
   getSum(){
-    console.log()
     this.val3 = this.val1 + this.val2;
-    console.log(this.val1);
-    console.log(this.val2);
-    console.log(this.val3);
     }
 
 }
