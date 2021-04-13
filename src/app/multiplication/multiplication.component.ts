@@ -16,7 +16,7 @@ export class MultiplicationComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  subract(){
+  multiply(){
     if(this.val1== null || this.val2== null) {
       this.showError = true;
     } else {

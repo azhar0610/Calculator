@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MultiplicationComponent } from './multiplication.component';
 
-describe('SubractionComponent', () => {
+describe('MultiplicationComponent', () => {
   let component: MultiplicationComponent;
   let fixture: ComponentFixture<MultiplicationComponent>;
 
