@@ -1,4 +1,4 @@
 # Calculator
-This is a simple easy Calculator program.
+This is a simple calculator program.
 
 It has all mathematical operations.
