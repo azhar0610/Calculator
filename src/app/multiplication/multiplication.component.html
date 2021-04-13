@@ -1,0 +1,16 @@
+<div>
+    Multiply given input numbers
+</div>
+<div *ngIf="showError">
+    Please enter 2 input values:
+</div>
+
+<input type="number" name="val1" [(ngModel)]="val1" placeholder="Enter Value 1 ">
+<br>
+<input type="number" name="val2" [(ngModel)]="val2" placeholder="Enter Value 2 ">
+<br>
+<button type="button" name="val3" (click) = "multiply()" class="operator" value="*">Multiply the given input numbers</button>
+
+<div>
+    {{val3}}
+</div>
