@@ -10,6 +10,7 @@ export class SubractionComponent implements OnInit {
   val2!: any;
   val3!: any;
   showError: boolean = false;
+  invalidInputs: boolean = false;
 
   constructor() { }
 
@@ -17,11 +18,14 @@ export class SubractionComponent implements OnInit {
   }
 
   subract(){
-    if(this.val1 < this.val2) {
+    if(this.val1== null || this.val2== null) {
+      this.invalidInputs = true;
+    } else if(this.val1 < this.val2) {
       this.showError = true;
     } else {
       this.val3 = this.val1 - this.val2;
       this.showError = false;
+      this.invalidInputs = false;
     }
     }
 

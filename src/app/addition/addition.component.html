@@ -1,6 +1,9 @@
 <div>
     We can perform addition of Two numbers on this page.
 </div>
+<div *ngIf="invalidInputs">
+    Please Enter valid inputs
+</div>
 
 <input type="number" name="val1" [(ngModel)]="val1" placeholder="Enter Value 1 ">
 <br>
