@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+.footercss{
+	font-style: italic; 
+	font-size: large; 
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.operator{
+	width: 8%;
+	font-style: normal;
+	padding: 1;
+	 
+}
+
+.heading{
+	text-align: center;
+}
