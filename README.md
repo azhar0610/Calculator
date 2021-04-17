@@ -13,12 +13,16 @@ This is a simple calculator program. It has basic mathematical operations.
 This is initial release and it currently supports operation only with two input variables.
 
 #Dashboard Image
+
 #
 
 <p align="center">
   <img src="https://github.com/2020MT93167/Calculator/blob/main/src/images/dashboard.JPG" alt="calculator application" />
 </p>
 
+#Github Page
+
+<p>https://2020mt93167.github.io/Calculator/</p>
 
 Here are the current contributors. Please add your name if you are planning to contribute to this project.
 
