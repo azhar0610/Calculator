@@ -1,17 +1,31 @@
-<H1> Hi its a Simple Calculator Project for OOSE - Assignment 4</H1>
+<!DOCTYPE H1 PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<Html>
+<head>
+	<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scaleoperator=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Calculator</title>
+        <link href="../styles.css" rel="stylesheet" />
+</head>
 
-<H3>Following are the scope of this Project :</H3>
+<body>
+<div class="heading">
+	<H1>Calculator Application</H1>
+</div>
+<H3>Scope of the project is listed below :</H3>
 <ul>
-<li>Basic operations Like Addition ,Substraction, Multiplication and Division can only be performed</li>
-<li>As we are in early Stage only two variables are allowed</li>
+<li>It has basic operations like Addition ,Subtraction, Multiplication and Division</li>
+<li>This is initial release and it currently supports operations with two variables only. </li>
 </ul>
 
-<H2>Please Press the dedicated buttons for your solution</H2>
+<H3>Choose a operation you wish to perform:</H3>
 
-<button type="button" (click) = "getOperation('+')" class="operator" value="+">For Addition</button> <br> <br>
-<button type="button" (click) = "getOperation('-')" class="operator" value="-">For Substraction</button> <br> <br>
-<button type="button" (click) = "getOperation('*')" class="operator" value="*">For Multiplication</button> <br> <br>
-<button type="button" (click) = "getOperation('/')" class="operator" value="/">For Division</button> <br> <br>
+<button type="button" (click) = "getOperation('+')" class="operator" value="+">Addition</button>
+<button type="button" (click) = "getOperation('-')" class="operator" value="-">Subtraction</button>
+<button type="button" (click) = "getOperation('*')" class="operator" value="*">Multiplication</button>
+<button type="button" (click) = "getOperation('/')" class="operator" value="/">Division</button>
+<button type="button" (click) = "getOperation('/')" class="operator" value="%">Modulo</button>
 <br> <br>
 <div *ngIf="operation == '+'">
   <app-addition></app-addition>
@@ -25,6 +39,20 @@
 <div *ngIf="operation == '*'">
   <app-multiplication></app-multiplication>
 </div>
-<footer style="font-style: italic; font-size: x-large; font-family: Georgia, 'Times New Roman', Times, serif;">Contributors :
-<p>Sahil - 2020MT93079, Melita 2020MT93167, Suryakant - 2020MT93046, Azhar -2020MT93127</p>
+<div *ngIf="operation == '%'">
+  <app-moduloDivision></app-moduloDivision>
+</div>
+<p>
+<footer class="footercss">Contributors :
+
+<p>
+	<li>Sahil - 2020MT93079</li> 
+	<li>Melita D - 2020MT93167</li> 
+	<li>Suryakant S- 2020MT93046</li>
+	<li>Mohd Azhar Hussain-2020MT93127</li>
+</p>
 </footer>
+</p>
+</body>
+</Html>
+
