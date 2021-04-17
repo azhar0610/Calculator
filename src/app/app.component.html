@@ -19,12 +19,13 @@
 <li>This is initial release and it currently supports operations with two variables only. </li>
 </ul>
 
-<H3>Choose the operation you wish to perform:</H3>
+<H3>Choose a operation you wish to perform:</H3>
 
 <button type="button" (click) = "getOperation('+')" class="operator" value="+">Addition</button>
 <button type="button" (click) = "getOperation('-')" class="operator" value="-">Subtraction</button>
 <button type="button" (click) = "getOperation('*')" class="operator" value="*">Multiplication</button>
 <button type="button" (click) = "getOperation('/')" class="operator" value="/">Division</button>
+<button type="button" (click) = "getOperation('/')" class="operator" value="%">Modulo</button>
 <br> <br>
 <div *ngIf="operation == '+'">
   <app-addition></app-addition>
@@ -38,7 +39,9 @@
 <div *ngIf="operation == '*'">
   <app-multiplication></app-multiplication>
 </div>
-
+<div *ngIf="operation == '%'">
+  <app-moduloDivision></app-moduloDivision>
+</div>
 <p>
 <footer class="footercss">Contributors :
 
