@@ -5,12 +5,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './modulo.component.html',
   styleUrls: ['./modulo.component.css']
 })
-export class DivisionComponent implements OnInit {
+export class ModuloDivisionComponent implements OnInit {
 
   val1!: any;
   val2!: any;
   val3!: any;
-  invaliInput: Boolean = false;
+  invalidInputs: Boolean = false;
 
   constructor() { }
 
@@ -19,7 +19,7 @@ export class DivisionComponent implements OnInit {
 
   moduloDivision(){
     if(this.val1 == null || this.val2 == null){
-      this.invaliInput = true;
+      this.invalidInputs = true;
     }else {
       this.val3 = this.val1 % this.val2;
     }
