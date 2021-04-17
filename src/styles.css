@@ -1,9 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
+
 .footercss{
-	font-style: italic; 
-	font-size: large; 
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color:#f8f9fa;
+  padding:10px 10 10px;
+  font-size:15px;
+  line-height:30px;
+  color:#737373;
+   margin:200px 0;
+  font-family: Georgia, Times New Roman, Times, serif;
 }
 
 .operator{
