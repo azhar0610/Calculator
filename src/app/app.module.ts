@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { SubractionComponent } from './subraction/subraction.component';
 import { DivisionComponent } from './division/division.component';
 import { MultiplicationComponent } from './multiplication/multiplication.component';
+import { ModuloDivisionComponent } from './moduloDivision/modulo.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MultiplicationComponent } from './multiplication/multiplication.compone
     AdditionComponent,
     SubractionComponent,
     DivisionComponent,
-    MultiplicationComponent
+    MultiplicationComponent,
+    ModuloDivisionComponent
   ],
   imports: [
     BrowserModule,
