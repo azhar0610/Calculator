@@ -20,4 +20,8 @@
 
 .heading{
 	text-align: center;
+	background-color: purple;
+	color:white;
+	height:10%;
+	padding: 1px;
 }
