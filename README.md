@@ -5,6 +5,7 @@ Contribution to open source: Assignment - 4
 This is a simple calculator program.
 
 It has basic mathematical operations.
+
 1. Addition
 2. Subtraction
 3. Multiplication
@@ -12,8 +13,9 @@ It has basic mathematical operations.
 5. Modulo Division
 
 #Dashboard Image
+
 #
 
 <p align="center">
-  <img src="../images/dashboard.jpg" width="300" alt="calculator application" />
+  <img src="https://github.com/2020MT93167/Calculator/blob/main/src/images/dashboard.JPG" width="300" alt="calculator application" />
 </p>
