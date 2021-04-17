@@ -11,9 +11,14 @@ It has basic mathematical operations.
 4. Division
 5. Modulo Division
 
+![GitHub Logo](../images/dashboard.png)
+Format: ![Alt Text](url)
+
 #Dashboard Image
 #
 
 <p align="center">
-  <img src="../images/dashboard.jpg" width="300" alt="calculator application" />
+  <img src="../images/dashboard.png" width="300" alt="calculator application" />
 </p>
+
+[GitHub](https://github.com/2020MT93167/Calculator/blob/images/dashboard.png)
